@@ -1,6 +1,8 @@
 {
   "name": "login-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "The basic authenticator application.",
+  "main": "app.js",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -9,8 +11,14 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "express-session": "^1.17.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
-  }
+    "pug": "2.0.0-beta11",
+    "@okta/oidc-middleware": "^2.1.0",
+    "@okta/okta-sdk-nodejs": "^3.1.0"
+  },
+  "author": "Ajay Narvekar",
+  "license": "ISC"
 }
